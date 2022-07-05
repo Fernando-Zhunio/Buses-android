@@ -9,8 +9,5 @@ namespace buses2.Models
         public int Id { get; set; }
         [Required]
         public string Placa { get; set; }
-
-
-
     }
 }

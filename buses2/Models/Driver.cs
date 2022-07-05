@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+
 namespace buses2.Models
 {
     public class Driver
@@ -10,8 +11,5 @@ namespace buses2.Models
         public int UserId { get; set; }
 
         public User User { get; set; }
-
-
-
     }
 }

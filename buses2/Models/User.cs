@@ -1,7 +1,11 @@
-﻿namespace buses2.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace buses2.Models
 {
     public class User
     {
+        [Required]
+        [Key]
         public int Id { get; set; }
         public string FirstName { get; set; }
         public int LastName { get; set; }
